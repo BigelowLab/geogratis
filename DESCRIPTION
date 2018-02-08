@@ -1,0 +1,15 @@
+Package: geogratis
+Type: Package
+Title: Free Data from Natural Resources Canada
+Description: Query and retrieve data from Natural Resources Canada.
+URL: https://github.com/BigelowLab/geogratis
+Version: 0.1
+Depends: R (>= 3.3.0)
+Author: Ben Tupper
+Maintainer: Ben Tupper <btupper@bigelow.org>
+License: MIT + file LICENSE
+Imports:
+    httr,
+    curl,
+    sf
+RoxygenNote: 6.0.1
